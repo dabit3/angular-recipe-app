@@ -1,0 +1,40 @@
+/* Your app's CSS, go crazy, make it your own */
+
+
+.ionic-logo {
+  display: block;
+  margin: 15px auto;
+  width: 96px;
+  height: 96px;
+}
+
+
+@font-face
+{
+    font-family: MP;
+    src: url("fonts/KGHAPPY.ttf");
+}
+
+h1 {
+    font-family: "MP" sans-serif !important;
+}
+
+#me {
+}
+
+.fp-list div {
+    height:60px;
+    background:rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.2);
+
+}
+
+.fp-list div p {
+    font-size: 16px;
+    color: #000;
+    font-family: "MP" sans-serif;
+    text-align: center;
+    padding-top:16px;
+
+}
+
