@@ -1,0 +1,19 @@
+<ion-view title="'DINNER'" >
+    <ion-content has-header="true" >
+        <ion-list>
+            <label class="item item-input">
+                <span class="input-label p-max-width" >Search: </span>
+                <input type="text" ng-model="pdSearch">
+            </label>
+            <ion-item ng-repeat="recipe in recipes | orderBy:'title' | filter:pdSearch" type="item-text-wrap" ng-href="#/dinner/{{recipe.id}}">
+                <h2 class="p-wrap" style="font-size: 14px;line-height: 20px;" >{{ recipe.title }}</h2>
+                <p  style="font-weight: bold;">{{recipe.preptime}}</p>
+            </ion-item>
+        </ion-list>
+        <!-- <ul>
+            <li ng-repeat="recipe in recipes">
+                <a ng-href="#/breakfast/{{recipe.id}}" ><h3>{{ recipe.title }}</h3></a>
+            </li>
+        </ul>-->
+    </ion-content>
+</ion-view>

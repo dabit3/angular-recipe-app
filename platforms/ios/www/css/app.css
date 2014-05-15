@@ -1,0 +1,154 @@
+/* Your app's CSS, go crazy, make it your own */
+
+html {
+
+}
+
+.ionic-logo {
+  display: block;
+  margin: 15px auto;
+  width: 96px;
+  height: 96px;
+}
+
+body {
+
+}
+
+.solid {
+    font-family: "MPS" sans-serif !important;
+}
+
+@font-face
+{
+    font-family: MP;
+    src: url("fonts/KGHAPPY.ttf");
+}
+
+@font-face {
+    font-family: MPS;
+    src: url("fonts/KGHAPPYSolid.ttf");
+}
+
+h1 {
+    font-family: "MP" sans-serif !important;
+}
+
+h2 {
+    font-family: "MPS" sans-serif !important;
+}
+
+#me {
+}
+
+.fp-list div {
+
+}
+
+.fp-list {
+}
+
+.fpdiv {
+    height:126px;
+    padding-top:30px;
+    border-top:1px solid rgba(214,214,214,.1);
+    border-bottom:1px solid rgba(0,0,0,.6);
+}
+
+.fpdiv p {
+    padding-top:10px;
+}
+
+.fp-list div p {
+    font-size: 18px;
+    color: #fff;
+    font-family: "MP" sans-serif;
+    text-align: center;
+    opacity: 1;
+}
+
+.fp-list div p img {
+    padding-top:33px;
+}
+
+.fp-list a {
+    text-decoration: none;
+}
+
+.bar-dark {
+    background: #000;
+    background-image: linear-gradient(0deg, #000, #000 50%, transparent 50%);
+}
+
+#fp-breakfast {
+   background-image: url('../img/breakfastbg.png');
+}
+
+#fp-lunch {
+    background-image: url('../img/lunchbg.png');
+}
+
+#fp-dinner {
+    background-image: url('../img/dinnerbg.png');
+}
+
+#fp-snack {
+    background-image: url('../img/snackbg.png');
+}
+
+.breakfastbg {
+    height:30px;
+    width:30px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: 32px 32px ;
+    border: none;
+}
+
+.p-wrap {
+    white-space: normal !important;
+}
+
+.p-max-width {
+    max-width: 90px;
+}
+
+/* .my-repeat.ng-enter,
+.my-repeat.ng-leave,
+.my-repeat.ng-move {
+    -webkit-transition: .25s ease all .001s;
+    transition: .25s ease all .001s;
+}
+
+.my-repeat.ng-enter {
+    opacity: 0;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.my-repeat.ng-enter.ng-enter-active {
+    opacity: 1;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.my-repeat.ng-leave {
+    opacity: 1;
+    transform: scale(0.6);
+    -webkit-transform: sclae(0.6);
+}
+
+.my-repeat.ng-leave.ng-leave-active {
+    opacity: 0;
+    transform: scale(0.6);
+    -webkit-tranform: scale(0.6);
+}
+
+.my-repeat.ng-move {
+
+}
+
+.my-repeat.ng-move.ng-move-active {
+
+} */

@@ -1,0 +1,28 @@
+<ion-view title="recipe.title">
+    <ion-content padding="true" has-header="true">
+        <div class="list card" style="margin-top:8px;">
+            <h2 class="item item-divider p-wrap" style="text-align: center;font-size: 24px;padding:10px 0px 10px 0px;line-height: 32px;">{{recipe.title}}</h2>
+
+            <p class="item"><span style="font-weight: bold;">Prep Time: </span>&nbsp; {{ recipe.preptime }}</p>
+            <p class="item"><span style="font-weight: bold;">Servings: </span>&nbsp; {{recipe.servings}}</p>
+            <br />
+            <div class="list">
+                <div class="item item-divider">Ingredients:</div>
+                <ul>
+                    <li class="item p-wrap" ng-repeat="ingredient in recipe.ingredients">
+                        {{ ingredient }}
+                    </li>
+                </ul>
+                <br/>
+                <div class="item item-divider">Directions:</div>
+                <ul>
+                    <li class="item p-wrap"  ng-repeat="direction in recipe.directions">
+                        {{direction}}
+                    </li>
+                </ul>
+            </div>
+            <p><a class="button button-stable icon ion-arrow-left-b" href="#/lunch"> All Lunch Recipes</a></p>
+
+        </div>
+    </ion-content>
+</ion-view>

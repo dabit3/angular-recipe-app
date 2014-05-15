@@ -1,0 +1,6 @@
+2014-03-07 14:50:26.002 StarterApp[17416:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-07 14:50:26.031 StarterApp[17416:80b] Unlimited access to network resources
+2014-03-07 14:50:26.288 StarterApp[17416:80b] [CDVTimer][statusbar] 55.339992ms
+2014-03-07 14:50:26.288 StarterApp[17416:80b] [CDVTimer][TotalPluginStartup] 55.851996ms
+2014-03-07 14:50:26.485 StarterApp[17416:80b] Resetting plugins due to page load.
+2014-03-07 14:50:26.913 StarterApp[17416:80b] Finished load of: file:///Users/naderdabit/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/78AA1EC7-47CE-428F-A97F-9926B9A09A01/StarterApp.app/www/index.html#/tab/pets
