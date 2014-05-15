@@ -1,6 +1,4 @@
-ionic-angular-cordova-seed
+Picken
 ==========================
 
-The perfect starting point for an Ionic project.
-
-- [Ionic Tutorials](http://ionicframework.com/tutorials/)
+Picken Paleo Chicken Recipe IOS Applications
